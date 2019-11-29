@@ -31,6 +31,8 @@ h1 {
   width: 100%;
   justify-content: space-between;
   padding: .5em 0;
+  max-height: 100px;
+  align-items: center;
 }
 
 img {
@@ -56,6 +58,12 @@ li {
   border-color: #a63f38;
   width: 50%;
   text-align: center;
+  padding: .4rem 0;
+}
+
+.center {
+  border-left-style: none;
+  border-right-style: none;
 }
 
 a {
