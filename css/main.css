@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -11,9 +12,15 @@ header {
 }
 
 h1 {
-  color: #fff
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
   color: #fff;
+  font-weight: normal;
+  text-decoration: none;
 }
