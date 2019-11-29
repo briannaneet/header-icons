@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+h1 {
+  color: #fff
+}
+
+a {
+  color: #fff;
+}
