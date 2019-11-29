@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  width: 100%;
+  margin: 0;
+}
+
 header {
   background-color: #d05c2e;
 }
@@ -15,7 +20,7 @@ header {
 h1 {
   color: #fff;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   margin: 0;
 }
@@ -25,6 +30,7 @@ h1 {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: .5em 0;
 }
 
 img {
@@ -33,13 +39,14 @@ img {
 
 nav {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
   display: flex;
+  margin: 0;
 }
 
 li {
@@ -53,7 +60,16 @@ li {
 
 a {
   color: #fff;
-  font-weight: 400;
+  font-weight: normal;
   text-decoration: none;
   font-size: 1.125rem;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
+
+li:hover {
+  background-color: #a63f38;
+  border-color: #a63f38;
 }
